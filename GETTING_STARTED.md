@@ -99,7 +99,7 @@ Base Twig code can be found in the [base template](https://github.com/ezsystems/
 From a Twig template, it is possible to render a content with a sub-request:
 
 ```jinja
-{% render "ez_content:viewLocation" with {"locationId": 123, "viewMode": "full"} %}
+{% render "ez_content:viewLocation" with {"locationId": 123, "viewType": "full"} %}
 ```
 
 ### Legacy templates inclusion
